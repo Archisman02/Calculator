@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <section id="calculator-container">
+      <div class="calculator-header">
+        <div class="calc text-color-white">calc</div>
+        <div class="theme-changer-container">
+          <div class="theme-text text-color-white">THEME</div>
+          <div class="theme-changer">
+            <div class="btn-container">
+              <div class="button-1 text-color-white">1</div>
+              <div class="button-1 text-color-white">2</div>
+              <div class="button-1 text-color-white">3</div>
+            </div>
+            <div class="theme-changer-controller">
+              <div class="theme-changer-button"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen"></div>
+
+      <div class="keypad-container-1">
+        <div class="keypad-container-2">
+          <button type="button" class="keyboard-btn" value="7">7</button>
+          <button type="button" class="keyboard-btn" value="8">8</button>
+          <button type="button" class="keyboard-btn" value="9">9</button>
+          <button type="button" class="keyboard-btn" value="DEL">DEL</button>
+          <button type="button" class="keyboard-btn" value="4">4</button>
+          <button type="button" class="keyboard-btn" value="5">5</button>
+          <button type="button" class="keyboard-btn" value="6">6</button>
+          <button type="button" class="keyboard-btn" value="+">+</button>
+          <button type="button" class="keyboard-btn" value="1">1</button>
+          <button type="button" class="keyboard-btn" value="2">2</button>
+          <button type="button" class="keyboard-btn" value="3">3</button>
+          <button type="button" class="keyboard-btn" value="-">-</button>
+          <button type="button" class="keyboard-btn" value=".">.</button>
+          <button type="button" class="keyboard-btn" value="0">0</button>
+          <button type="button" class="keyboard-btn" value="/">/</button>
+          <button type="button" class="keyboard-btn" value="*">*</button>
+          <button
+            type="button"
+            class="keyboard-btn grid-column-span-2"
+            value="RESET"
+          >
+            RESET
+          </button>
+          <button
+            type="button"
+            class="keyboard-btn grid-column-span-2"
+            value="="
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
