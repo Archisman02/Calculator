@@ -62,6 +62,7 @@ body {
 
 .button-1 {
   /* border: 1px solid black; */
+  cursor: pointer;
   padding: 3px;
   font-size: 0.8rem;
   font-weight: 600;
@@ -179,4 +180,16 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 768px) {
+  #calculator-container {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #calculator-container {
+    width: 30%;
+  }
 }
